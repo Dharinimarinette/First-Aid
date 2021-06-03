@@ -1,0 +1,278 @@
+
+/* SELECTORS */
+li, p {
+  color: #8f8f8f;
+  font-family: 'Manrope', sans-serif;
+}
+
+h4 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* NAVBAR LEFT */
+#sticky-sidebar {
+  position: fixed;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  font-size: 2rem;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  color: #232323;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #afb9c8;
+}
+
+.openbtn {
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+  margin-top: 30px;
+  border-color: #000;
+}
+
+.openbtn:hover {
+  background-color: #000;
+  color: #fff;
+  border-color: #fff;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (min-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+
+  .sidebar a {
+    font-size: 1.5rem;
+  }
+}
+
+/* HEAD SECTION */
+.head {
+  background-size: 100% 100%;
+}
+
+.heading {
+  padding: 315px 150px;
+  text-align: center;
+  color: #fff;
+  line-height: 1.5;
+  font-family: 'Patua One', cursive;
+}
+
+.navbar {
+  color: #000;
+}
+
+.parallax {
+  background-image: url("images/backgroundHead.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 1029px) {
+  #heading {
+    font-size: 3.5rem;
+  }
+
+  p, li {
+    font-size: 1.2rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  .anchor {
+    font-size: 1.2rem;
+  }
+
+  .openbtn {
+    padding: 5px 15px;
+  }
+}
+
+@media (max-width: 1028px) {
+  #heading {
+    font-size: 4.5rem;
+  }
+
+  p, li {
+    font-size: 2.4rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  h4 {
+    font-size: 2.9rem;
+  }
+
+  .anchor {
+    font-size: 2.3rem;
+  }
+
+  .openbtn {
+      padding: 15px 25px;
+    }
+}
+
+/* CAROUSEL SECTION */
+.aid-meaning {
+  background-color: #fff;
+  padding: 100px 150px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+/* CONTENT SECTION */
+.title {
+  background-color: #08d9d6;
+  color: #fff;
+  font-size: 5rem;
+  padding: 50px 50px;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.parallax-title {
+  background-image: url("images/backgroundContent.jpg");
+  min-height: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-burn {
+  background-image: url("images/backgroundContent.jpg");
+  min-height: 350px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-snake-bite {
+  background-image: url("images/backgroundContent.jpg");
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-faint {
+  background-image: url("images/backgroundContent.jpg");
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-sprain {
+  background-image: url("images/backgroundContent.jpg");
+  min-height: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-drown {
+  background-image: url("images/backgroundContent.jpg");
+  min-height: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.white-section {
+  background-color: #fff;
+  padding: 100px 100px;
+}
+
+.coloured-section {
+  background-color: #08d9d6;
+  padding: 120px 100px;
+  color: #fff;
+}
+
+.coloured-text {
+  color: #fff;
+  font-weight: bolder;
+}
+
+/* FOOTER SECTION */
+.footer {
+  background-color: #1597bb;
+  padding: 65px 30px;
+  text-align: center;
+}
+
+.copyright {
+  color: #fff;
+  padding-top: 45px;
+}
+
+.anchor {
+  color: #fff;
+}
+
+.anchor:hover {
+  text-decoration: none;
+  color: #08d9d6;
+}
+
+.parallax-footer {
+  background-image: url("images/backgroundHead.jpg");
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
